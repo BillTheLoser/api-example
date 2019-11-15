@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Pnnl.Api.Approvals.Data\Pnnl.Api.Approvals.Data.csproj" />
+    <ProjectReference Include="..\..\src\Pnnl.Api.Approvals.Graphs\Pnnl.Api.Approvals.Graphs.csproj" />
+    <ProjectReference Include="..\..\src\Pnnl.Api.Approvals.Http\Pnnl.Api.Approvals.Http.csproj" />
+  </ItemGroup>
+  
+</Project>

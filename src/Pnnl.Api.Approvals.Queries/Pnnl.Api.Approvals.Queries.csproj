@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Data\Pnnl.Api.Approvals.Data.csproj" />
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Graphs\Pnnl.Api.Approvals.Graphs.csproj" />
+  </ItemGroup>
+
+</Project>

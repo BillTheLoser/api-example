@@ -1,0 +1,7 @@
+﻿namespace Pnnl.Api.Approvals.Data.Sql
+{
+    public class SqlSecurityStoreOptions
+    {
+        public string Connection { get; set; }
+    }
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.2.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.4" />
+    <PackageReference Include="Pnnl.AppCore.Data.Sql" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Data\Pnnl.Api.Approvals.Data.csproj" />
+    <ProjectReference Include="..\Pnnl.Api.Approvals\Pnnl.Api.Approvals.csproj" />
+  </ItemGroup>
+
+</Project>

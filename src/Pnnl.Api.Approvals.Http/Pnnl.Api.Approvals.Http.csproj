@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="Pnnl.AppCore.Data.Sql" Version="1.5.0" />
+    <PackageReference Include="System.DirectoryServices" Version="4.6.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.6.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Data.Http\Pnnl.Api.Approvals.Data.Http.csproj" />
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Data.Sql\Pnnl.Api.Approvals.Data.Sql.csproj" />
+    <ProjectReference Include="..\Pnnl.Api.Approvals.Data\Pnnl.Api.Approvals.Data.csproj" />
+    <ProjectReference Include="..\Pnnl.Api.Approvals\Pnnl.Api.Approvals.csproj" />
+  </ItemGroup>
+
+</Project>
